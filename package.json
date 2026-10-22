@@ -31,5 +31,10 @@
   "dependencies": {
     "@red-cup-engineering/computer-file-engineering-services-section": "0.4.0"
   },
-  "private": false
+  "private": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
 }
