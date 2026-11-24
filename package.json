@@ -1,0 +1,37 @@
+{
+  "name": "@red-cup-engineering/discord-reaction-system-observation-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "GET-only, privacy-bounded Discord reaction-system observation and state projection.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/discord-reaction-system-observation-service.git"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "files": [
+    "src",
+    "package.json"
+  ],
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs"
+    },
+    "./reaction-system-observation": {
+      "import": "./src/reaction-system-observation.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@red-cup-engineering/computer-file-engineering-services-section": "0.4.0"
+  },
+  "private": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
